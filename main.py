@@ -42,3 +42,6 @@ l = set(l)
 
 # palindrome
 string == string[::-1]
+
+# create a-z
+alphabets = list(string.ascii_lowercase)
