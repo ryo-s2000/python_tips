@@ -45,3 +45,14 @@ string == string[::-1]
 
 # create a-z
 alphabets = list(string.ascii_lowercase)
+
+# generateDocument
+def generateDocument(characters, document):
+    for s in document:
+        try:
+            i = characters.index(s)
+            characters = characters[:i] + characters[i+1:]
+        except:
+          return False
+
+    return True
