@@ -56,3 +56,7 @@ def generateDocument(characters, document):
           return False
 
     return True
+
+# type
+if type(a) is array:
+    return a
