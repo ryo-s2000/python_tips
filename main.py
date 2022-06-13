@@ -58,5 +58,5 @@ def generateDocument(characters, document):
     return True
 
 # type
-if type(a) is array:
+if type(a) is list:
     return a
